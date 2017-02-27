@@ -7,6 +7,13 @@ import { User } from './shared/models/user';
     styleUrls: ['./app/app.component.css']
 })
 export class AppComponent{
+	events: Event[] = [
+		{id: 10, title: 'Title 1', date: 'Date 1'},
+		{id: 11, title: 'Title 2', date: 'Date 2'},
+		{id: 12, title: 'Title 3', date: 'Date 3'}
+	]
+
+
     message: string = 'Hello!';
     users: User[] = [
         {id: 25, name: 'Emily', username: 'esmikl'},

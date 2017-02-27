@@ -9,6 +9,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
+        this.events = [
+            { id: 10, title: 'Title 1', date: 'Date 1' },
+            { id: 11, title: 'Title 2', date: 'Date 2' },
+            { id: 12, title: 'Title 3', date: 'Date 3' }
+        ];
         this.message = 'Hello!';
         this.users = [
             { id: 25, name: 'Emily', username: 'esmikl' },
